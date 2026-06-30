@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+backend/.env
+
+# Local databases / Vector stores
+backend/vector_db/
+vector_db/
+*.db
+
+# Node dependencies and builds
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+.next/
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
